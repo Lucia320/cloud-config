@@ -19,4 +19,4 @@ spring:
        url: jdbc:sqlserver://localhost;databaseName=test_microservicios
        username: sa
        password: Admin2017
-       driver-class: com.microsoft.sqlserver.jdbc.SQLServerDriver
+       driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
