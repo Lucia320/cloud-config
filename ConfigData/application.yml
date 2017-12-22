@@ -1,0 +1,10 @@
+---
+# Propiedades comunes a todos los microservicios
+# Log aplicacion
+logging:  
+  file: logs/${spring.application.name}.log
+  level:
+    org.springframework.cloud: 'DEBUG'
+    org.springframework.web='DEBUG'
+    com.co.ingeneo='DEBUG'
+    org.hibernate='ERROR'
