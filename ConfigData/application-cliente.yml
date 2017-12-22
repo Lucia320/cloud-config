@@ -6,18 +6,18 @@ spring:
       name: microservicios-cliente
    server:
       port: 8888
-      contextPath : /microservicios-cliente
+      contextPath: /microservicios-cliente
    datasource
        maxActive:3
-       testWhileIdle : true
-       timeBetweenEvictionRunsMillis : 3600000
-       validationQuery : SELECT 1
-       url:jdbc:sqlserver://localhost;databaseName=test_microservicios
-       username:sa
-       password:Admin2017
-       driver-class-name:com.microsoft.sqlserver.jdbc.SQLServerDriver   
+       testWhileIdle: true
+       timeBetweenEvictionRunsMillis: 3600000
+       validationQuery: SELECT 1
+       url:jdbc: sqlserver://localhost;databaseName=test_microservicios
+       username: sa
+       password: Admin2017
+       driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver   
    jpa
-       database-platform:org.hibernate.dialect.SQLServer2012Dialect
+       database-platform: org.hibernate.dialect.SQLServer2012Dialect
        
 ---
 spring:
@@ -26,15 +26,15 @@ spring:
       name: microservicios-cliente
    server:
       port: 8888
-      contextPath : /microservicios-cliente
+      contextPath: /microservicios-cliente
    datasource
        maxActive:3
-       testWhileIdle : true
-       timeBetweenEvictionRunsMillis : 3600000
-       validationQuery : SELECT 1
-       url:jdbc:sqlserver://sqlServer;databaseName=test_microservicios
-       username:sa
-       password:Adm1nSQL
-       driver-class-name:com.microsoft.sqlserver.jdbc.SQLServerDriver   
+       testWhileIdle: true
+       timeBetweenEvictionRunsMillis: 3600000
+       validationQuery: SELECT 1
+       url:jdbc: sqlserver://sqlServer;databaseName=test_microservicios
+       username: sa
+       password: Adm1nSQL
+       driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver   
    jpa
-       database-platform:org.hibernate.dialect.SQLServer2012Dialect       
+       database-platform: org.hibernate.dialect.SQLServer2012Dialect       
