@@ -21,7 +21,7 @@ spring:
        url: jdbc:sqlserver://localhost;databaseName=test_microservicios
        username: sa
        password: Admin2017
-       driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+       driver-class: com.microsoft.sqlserver.jdbc.SQLServerDriver
 ---
 spring:
    profiles: test
@@ -44,4 +44,4 @@ spring:
        url: jdbc:sqlserver://sqlServer;databaseName=test_microservicios
        username: sa
        password: Adm1nSQL
-       driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+       driver-class: com.microsoft.sqlserver.jdbc.SQLServerDriver
