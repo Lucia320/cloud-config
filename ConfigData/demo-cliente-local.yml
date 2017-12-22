@@ -1,5 +1,3 @@
----
-#Configuracion microservicio cliente
 spring:
    profiles: local
    application:
