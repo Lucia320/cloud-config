@@ -8,7 +8,7 @@ spring:
       port: 8888
       contextPath: /microservicios-cliente
    datasource:
-       maxActive:3
+       maxActive: 3
        testWhileIdle: true
        timeBetweenEvictionRunsMillis: 3600000
        validationQuery: SELECT 1
@@ -28,7 +28,7 @@ spring:
       port: 8888
       contextPath: /microservicios-cliente
    datasource:
-       maxActive:3
+       maxActive: 3
        testWhileIdle: true
        timeBetweenEvictionRunsMillis: 3600000
        validationQuery: SELECT 1
