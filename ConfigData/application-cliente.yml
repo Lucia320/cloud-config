@@ -7,7 +7,7 @@ spring:
    server:
       port: 8888
       contextPath: /microservicios-cliente
-   datasource
+   datasource:
        maxActive:3
        testWhileIdle: true
        timeBetweenEvictionRunsMillis: 3600000
@@ -16,7 +16,7 @@ spring:
        username: sa
        password: Admin2017
        driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver   
-   jpa
+   jpa:
        database-platform: org.hibernate.dialect.SQLServer2012Dialect
        
 ---
@@ -27,7 +27,7 @@ spring:
    server:
       port: 8888
       contextPath: /microservicios-cliente
-   datasource
+   datasource:
        maxActive:3
        testWhileIdle: true
        timeBetweenEvictionRunsMillis: 3600000
@@ -36,5 +36,5 @@ spring:
        username: sa
        password: Adm1nSQL
        driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver   
-   jpa
+   jpa:
        database-platform: org.hibernate.dialect.SQLServer2012Dialect       
