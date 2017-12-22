@@ -5,6 +5,6 @@ logging:
   file: logs/${spring.application.name}.log
   level:
     org.springframework.cloud: 'DEBUG'
-    org.springframework.web:'DEBUG'
-    com.co.ingeneo:'DEBUG'
-    org.hibernate:'ERROR'
+    org.springframework.web: 'DEBUG'
+    com.co.ingeneo: 'DEBUG'
+    org.hibernate: 'ERROR'
