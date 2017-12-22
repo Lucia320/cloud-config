@@ -9,9 +9,9 @@ spring:
       contextPath: /demo-cliente
    jpa:
        database-platform: org.hibernate.dialect.SQLServer2012Dialect
+       show-sql: true
        hibernate:
           ddl-auto: false
-       show-sql: true
    datasource:
        maxActive: 3
        testWhileIdle: true
@@ -31,9 +31,9 @@ spring:
       contextPath: /demo-cliente
    jpa:
      database-platform: org.hibernate.dialect.SQLServer2012Dialect
+     show-sql: true
      hibernate:
           ddl-auto: false
-       show-sql: true
    datasource:
        maxActive: 3
        testWhileIdle: true
